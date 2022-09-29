@@ -38,6 +38,6 @@ jobs:
       - name: Release
         if: github.ref == 'refs/heads/main'
         run: pnpm release
-        with:
+        env:
           GITHUB_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
