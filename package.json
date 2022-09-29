@@ -1,6 +1,6 @@
 {
   "name": "@mswjs/local-storage-polyfill",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
