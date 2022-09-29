@@ -9,9 +9,15 @@
     "test": "jest",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "local",
+    "storage",
+    "localStorage",
+    "node",
+    "persist"
+  ],
   "author": "Artem Zakharchenko",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.1.0",
     "jest": "^29.1.1",
